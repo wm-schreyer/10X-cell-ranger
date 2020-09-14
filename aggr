@@ -6,6 +6,10 @@ $ cellranger aggr --id=AGGR --csv=cellranger_aggr_library.csv --normalize=mapped
 cellranger aggr (3.1.0)
 Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
 
+Martian Runtime - '3.1.0-v3.2.3'
+2020-03-08 00:12:41 [jobmngr] WARNING: configured to use 453GB of local memory, but only 449.9GB is currently available.
+Serving UI at http://hanuman.biology.pdx.edu:45864?auth=3-K4t7u0S6kHVmW7IO7k3yvBS00j0JyVIWNMYjqAEtY
+
 ## Outputs: 
 # Aggregation metrics summary HTML:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/web_summary.html
 # Aggregation metrics summary JSON:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/summary.json
