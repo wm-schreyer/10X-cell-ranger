@@ -24,6 +24,9 @@ Serving UI at http://hanuman.biology.pdx.edu:39210?auth=hck82dLfQMWV8x0kIkEeA5iq
 # Copy of the input aggregation CSV:        /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/aggregation.csv
 # Loupe Cell Browser file:                  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/cloupe.cloupe
 
+Waiting 6 seconds for UI to do final refresh.
+Pipestance completed successfully!
+
 -------------------------------------------------------------------------------
 
 ### GFP+ & UNI
@@ -48,6 +51,9 @@ Serving UI at http://hanuman.biology.pdx.edu:39210?auth=hck82dLfQMWV8x0kIkEeA5iq
 # Copy of the input aggregation CSV:        /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/aggregation.csv
 # Loupe Cell Browser file:                  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/cloupe.cloupe
 
+Waiting 6 seconds for UI to do final refresh.
+Pipestance completed successfully!
+
 -------------------------------------------------------------------------------
 
 ### GFP- & UNI
@@ -71,3 +77,6 @@ Serving UI at http://hanuman.biology.pdx.edu:46002?auth=SdefcyKcdZQXfSkq3dEOW3cp
 # Unfiltered feature-barcode matrices HDF5: /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/raw_feature_bc_matrix.h5
 # Copy of the input aggregation CSV:        /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/aggregation.csv
 # Loupe Cell Browser file:                  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/cloupe.cloupe
+
+Waiting 6 seconds for UI to do final refresh.
+Pipestance completed successfully!
