@@ -1,0 +1,73 @@
+## wmaxwellsch@hanuman run_cellranger_aggr
+
+-------------------------------------------------------------------------------
+
+### GFP+ & GFP-
+
+$ cellranger aggr --id=GFPpos_GFPneg --csv=pairwise_aggr_GFP+_GFP-.csv --normalize=mapped
+
+/mnt/wda/home/wmaxwellsch/yard/apps/cellranger-3.1.0/cellranger-cs/3.1.0/bin
+cellranger aggr (3.1.0)
+Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
+
+Martian Runtime - '3.1.0-v3.2.3'
+Serving UI at http://hanuman.biology.pdx.edu:39210?auth=hck82dLfQMWV8x0kIkEeA5iqnq_gRNJMDS6hQQXDTbQ
+
+## Outputs:
+# Aggregation metrics summary HTML:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/web_summary.html
+# Aggregation metrics summary JSON:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/summary.json
+# Secondary analysis output CSV:            /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/analysis
+# Filtered feature-barcode matrices MEX:    /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/filtered_feature_bc_matrix
+# Filtered feature-barcode matrices HDF5:   /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/filtered_feature_bc_matrix.h5
+# Unfiltered feature-barcode matrices MEX:  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/raw_feature_bc_matrix
+# Unfiltered feature-barcode matrices HDF5: /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/raw_feature_bc_matrix.h5
+# Copy of the input aggregation CSV:        /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/aggregation.csv
+# Loupe Cell Browser file:                  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_GFPneg/outs/cloupe.cloupe
+
+-------------------------------------------------------------------------------
+
+### GFP+ & UNI
+
+$ cellranger aggr --id=GFPpos_UNI --csv=pairwise_aggr_GFP+_UNI.csv --normalize=mapped
+
+/mnt/wda/home/wmaxwellsch/yard/apps/cellranger-3.1.0/cellranger-cs/3.1.0/bin
+cellranger aggr (3.1.0)
+Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
+
+Martian Runtime - '3.1.0-v3.2.3'
+Serving UI at http://hanuman.biology.pdx.edu:39210?auth=hck82dLfQMWV8x0kIkEeA5iqnq_gRNJMDS6hQQXDTbQ
+
+## Outputs:
+# Aggregation metrics summary HTML:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/web_summary.html
+# Aggregation metrics summary JSON:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/summary.json
+# Secondary analysis output CSV:            /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/analysis
+# Filtered feature-barcode matrices MEX:    /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/filtered_feature_bc_matrix
+# Filtered feature-barcode matrices HDF5:   /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/filtered_feature_bc_matrix.h5
+# Unfiltered feature-barcode matrices MEX:  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/raw_feature_bc_matrix
+# Unfiltered feature-barcode matrices HDF5: /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/raw_feature_bc_matrix.h5
+# Copy of the input aggregation CSV:        /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/aggregation.csv
+# Loupe Cell Browser file:                  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPpos_UNI/outs/cloupe.cloupe
+
+-------------------------------------------------------------------------------
+
+### GFP- & UNI
+
+$ cellranger aggr --id=GFPneg_UNI --csv=pairwise_aggr_GFP-_UNI.csv --normalize=mapped
+
+/mnt/wda/home/wmaxwellsch/yard/apps/cellranger-3.1.0/cellranger-cs/3.1.0/bin
+cellranger aggr (3.1.0)
+Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
+
+Martian Runtime - '3.1.0-v3.2.3'
+Serving UI at http://hanuman.biology.pdx.edu:46002?auth=SdefcyKcdZQXfSkq3dEOW3cplnJF6GdMJvRQ42BM-RI
+
+## Outputs:
+# Aggregation metrics summary HTML:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/web_summary.html
+# Aggregation metrics summary JSON:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/summary.json
+# Secondary analysis output CSV:            /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/analysis
+# Filtered feature-barcode matrices MEX:    /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/filtered_feature_bc_matrix
+# Filtered feature-barcode matrices HDF5:   /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/filtered_feature_bc_matrix.h5
+# Unfiltered feature-barcode matrices MEX:  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/raw_feature_bc_matrix
+# Unfiltered feature-barcode matrices HDF5: /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/raw_feature_bc_matrix.h5
+# Copy of the input aggregation CSV:        /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/aggregation.csv
+# Loupe Cell Browser file:                  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/GFPneg_UNI/outs/cloupe.cloupe
