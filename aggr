@@ -1,0 +1,24 @@
+## wmaxwellsch@hanuman run_cellranger_aggr
+
+$ cellranger aggr --id=AGGR --csv=cellranger_aggr_library.csv --normalize=mapped
+
+/mnt/wda/home/wmaxwellsch/yard/apps/cellranger-3.1.0/cellranger-cs/3.1.0/bin
+cellranger aggr (3.1.0)
+Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
+
+## Outputs: 
+# Aggregation metrics summary HTML:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/web_summary.html
+# Aggregation metrics summary JSON:         /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/summary.json
+# Secondary analysis output CSV:            /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/analysis
+# Filtered feature-barcode matrices MEX:    /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/filtered_feature_bc_matrix
+# Filtered feature-barcode matrices HDF5:   /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/filtered_feature_bc_matrix.h5
+# Unfiltered feature-barcode matrices MEX:  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/raw_feature_bc_matrix
+# Unfiltered feature-barcode matrices HDF5: /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/raw_feature_bc_matrix.h5
+# Copy of the input aggregation CSV:        /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/aggregation.csv
+# Loupe Cell Browser file:                  /mnt/wda/home/wmaxwellsch/yard/run_cellranger_aggr/AGGR/outs/cloupe.cloupe
+
+Waiting 6 seconds for UI to do final refresh.
+Pipestance completed successfully!
+
+2020-03-08 00:27:03 Shutting down.
+Saving pipestance info to "AGGR/AGGR.mri.tgz"
